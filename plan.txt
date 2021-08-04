@@ -1,0 +1,36 @@
+Ideas for “recording the places you’ve visited in one place”
+
+Purpose
+- To allow users to post their travel photos
+- To sort their travel photos based on the location they were taken (country?)
+- To share the travel photos with others
+
+Why? Prompt
+- I have travelled to many places and countries, but I sometimes struggle to find the pictures that I’ve taken when traveling
+- It’s so nice to have a service that allows me to organize my memories 
+
+Target users
+- the indidivuals who like to travel
+
+Main features
+- User signup / login (P1)
+    - create an account
+    - retrieve lost passwords
+    - change passwords
+    - login
+- Upload photos (P1)
+- Organize photos based on location (P1)
+    1. list countries and put the photos under the country of syour choice (P1)
+    2. present the features in the world map (P2)
+- Share the travel photos with other users (P3)
+
+Workflow
+- 
+
+Database
+- SQL (postgresql)
+- Segregation
+    - Logical separation: store all the clients in one Database. each identified by ID
+
+Frontend
+- 
