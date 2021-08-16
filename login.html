@@ -12,14 +12,14 @@
 </head>
 
 <body>
-    <div class="d-md-flex half align-items-center">
-        <div class="bg col-md-6 order-1 order-md-2">
+    <div class="d-lg-flex half align-items-center">
+        <div class="bg col-lg-6 order-1 order-lg-2 d-none d-sm-none d-md-none d-lg-block">
         </div>
-        <div class="col-md-6 order-2 order-md-1">
+        <div class="contents col-lg-6 order-2 order-lg-1">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-7">
-                        <h1>Sign In</h1>
+                    <div class="col-md-7 py-5">
+                        <h1 class="mb-4">Sign In</h1>
                         <form action="#">
                             <div class="form-group">
                                 <label for="username">Username</label>
@@ -35,8 +35,9 @@
                                     <label class="form-check-label" for="rememberme">Remember me</label>
                                 </div>
                                 <a href="#" class="forgotpass">Forgot Password</a>
-
                             </div>
+                            <button type="submit" value="Login" class="btn btn-block btn-outline-primary"
+                                style="width:100%;">Login</button>
                         </form>
                     </div>
                 </div>

@@ -1,4 +1,7 @@
 .bg {
     background-image: url('imgs/lake.jpeg');
-    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
