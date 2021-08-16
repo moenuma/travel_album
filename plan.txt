@@ -33,4 +33,6 @@ Database
     - Logical separation: store all the clients in one Database. each identified by ID
 
 Frontend
-- 
+- html
+- css
+- javascript
