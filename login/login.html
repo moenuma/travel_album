@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Album</title>
+    <title>Log In</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
@@ -19,26 +19,30 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-7 py-5">
-                        <h1 class="mb-4">Sign In</h1>
+                        <h1 class="mb-4">Log In</h1>
+                        <p>Welcome back :) Let's continue your journey!</p>
                         <form action="#">
                             <div class="form-group">
-                                <label for="username">Username</label>
-                                <input type="text" class="form-control" id="username">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" id="email">
                             </div>
                             <div class="form-group mb-3">
                                 <label for="password">Password</label>
                                 <input type="password" class="form-control" id="password">
                             </div>
-                            <div class="d-flex mb-5 justify-content-between">
+                            <div class="d-flex mb-4 justify-content-between">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="rememberme" checked>
                                     <label class="form-check-label" for="rememberme">Remember me</label>
                                 </div>
                                 <a href="#" class="forgotpass">Forgot Password</a>
                             </div>
-                            <button type="submit" value="Login" class="btn btn-block btn-outline-primary"
+                            <button type="submit" value="Login" class="btn btn-block btn-outline-primary mb-3"
                                 style="width:100%;">Login</button>
                         </form>
+                        <div class="d-flex justify-content-center">
+                            <p>Don't have an account yet? <a href="#">Sign up</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
