@@ -1,0 +1,47 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #474448;
+    font-weight: 300;
+    color: #e0ddcf;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 115px;
+}
+
+nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+  }
+nav .nav-items li{
+    list-style: none;
+    padding: 0 15px;
+}
+nav .nav-items li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+nav .nav-items li a:hover{
+    color: #ff3d00;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar-collapse {
+    font-size: 18px;
+}
+
