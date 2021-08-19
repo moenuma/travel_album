@@ -1,6 +1,10 @@
+from flask import Flask, render_template
 
-def main(argv):
-    
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template("signup.html")
 
 if __name__ == '__main__':
-    main(sts.argv)
+    app.run(debug=True)
