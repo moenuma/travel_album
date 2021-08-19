@@ -18,7 +18,14 @@ Main features
     - retrieve lost passwords
     - change passwords
     - login
-- Upload photos (P1)
+- POST (P1)
+    - upload photos (one or more) (P1)
+    - add notes (P1)
+    - add location
+        - country (P1)
+        - google map (P3)
+    - add people
+    - add titles
 - Organize photos based on location (P1)
     1. list countries and put the photos under the country of syour choice (P1)
     2. present the features in the world map (P2)
